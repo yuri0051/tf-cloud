@@ -1,0 +1,11 @@
+aws-region        = "us-east-1"
+aws-ami           = "ami-08c40ec9ead489470"
+aws-instance-type = "t2.micro"
+
+gcp-project       = "seventh-server-288620"
+gcp-region        = "europe-west2"
+gcp-zone          = "europe-west2-a"
+gcp-instance-name = "tf-backends-instance-1"
+gcp-machine-type  = "e2-micro"
+gcp-image         = "debian-11-bullseye-v20220920"
+gcp-network       = "default"
