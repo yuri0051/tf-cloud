@@ -22,10 +22,6 @@ variable "gcp-zone" {
   type = string
 }
 
-variable "gcp-credentials" {
-  type = string
-}
-
 variable "gcp-machine-type" {
   type = string
 }
