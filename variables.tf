@@ -37,3 +37,9 @@ variable "gcp-image" {
 variable "gcp-network" {
   type = string
 }
+
+variable "gcp-credentials" {
+  type = string
+  sensitive = true
+  description = "Google Cloud service account credentials"
+}
